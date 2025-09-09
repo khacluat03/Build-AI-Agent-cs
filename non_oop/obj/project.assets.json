@@ -337,11 +337,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ASOFT_CODE\\agent_cs\\agent_cs.csproj",
-      "projectName": "agent_cs",
-      "projectPath": "D:\\ASOFT_CODE\\agent_cs\\agent_cs.csproj",
+      "projectUniqueName": "D:\\ASOFT_CODE\\agent_cs\\non_oop\\non_oop.csproj",
+      "projectName": "non_oop",
+      "projectPath": "D:\\ASOFT_CODE\\agent_cs\\non_oop\\non_oop.csproj",
       "packagesPath": "C:\\Users\\luatn\\.nuget\\packages\\",
-      "outputPath": "D:\\ASOFT_CODE\\agent_cs\\obj\\",
+      "outputPath": "D:\\ASOFT_CODE\\agent_cs\\non_oop\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\luatn\\AppData\\Roaming\\NuGet\\NuGet.Config"

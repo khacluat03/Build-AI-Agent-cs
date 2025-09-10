@@ -40,3 +40,8 @@ D:\ASOFT_CODE\agent_cs\non_oop\obj\Debug\net9.0\refint\non_oop.dll
 D:\ASOFT_CODE\agent_cs\non_oop\obj\Debug\net9.0\non_oop.pdb
 D:\ASOFT_CODE\agent_cs\non_oop\obj\Debug\net9.0\non_oop.genruntimeconfig.cache
 D:\ASOFT_CODE\agent_cs\non_oop\obj\Debug\net9.0\ref\non_oop.dll
+D:\ASOFT_CODE\agent_cs\non_oop\bin\Debug\net9.0\DotNetEnv.dll
+D:\ASOFT_CODE\agent_cs\non_oop\bin\Debug\net9.0\Microsoft.Extensions.Configuration.dll
+D:\ASOFT_CODE\agent_cs\non_oop\bin\Debug\net9.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\ASOFT_CODE\agent_cs\non_oop\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+D:\ASOFT_CODE\agent_cs\non_oop\bin\Debug\net9.0\Sprache.dll

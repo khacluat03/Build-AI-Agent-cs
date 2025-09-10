@@ -2,13 +2,14 @@
 using System.Threading.Tasks;
 using AgentCS.Services;
 using AgentCS.Agents;
-
+using DotNetEnv;
 class Program
 {
     static async Task Main(string[] args)
     {
+        Env.Load();
         string dbPath = "shop.db";
-        string geminiApiKey = "AIzaSyCmAkO5Z2B7lC1hpeKlAbTZme6p6sLBW5A"; 
+        string geminiApiKey = Environment.GetEnvironmentVariable("geminiApiKey");
 
         IDatabaseService dbService = new DatabaseService(dbPath);
         ILLMService geminiService = new GeminiService(geminiApiKey);

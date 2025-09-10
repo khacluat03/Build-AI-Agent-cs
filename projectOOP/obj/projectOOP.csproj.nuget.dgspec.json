@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASOFT_CODE\\projectOOP\\projectOOP.csproj": {}
+    "D:\\ASOFT_CODE\\agent_cs\\projectOOP\\projectOOP.csproj": {}
   },
   "projects": {
-    "D:\\ASOFT_CODE\\projectOOP\\projectOOP.csproj": {
+    "D:\\ASOFT_CODE\\agent_cs\\projectOOP\\projectOOP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASOFT_CODE\\projectOOP\\projectOOP.csproj",
+        "projectUniqueName": "D:\\ASOFT_CODE\\agent_cs\\projectOOP\\projectOOP.csproj",
         "projectName": "projectOOP",
-        "projectPath": "D:\\ASOFT_CODE\\projectOOP\\projectOOP.csproj",
+        "projectPath": "D:\\ASOFT_CODE\\agent_cs\\projectOOP\\projectOOP.csproj",
         "packagesPath": "C:\\Users\\luatn\\.nuget\\packages\\",
-        "outputPath": "D:\\ASOFT_CODE\\projectOOP\\obj\\",
+        "outputPath": "D:\\ASOFT_CODE\\agent_cs\\projectOOP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\luatn\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -44,6 +44,10 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "DotNetEnv": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
             "Microsoft.Data.Sqlite": {
               "target": "Package",
               "version": "[9.0.8, )"

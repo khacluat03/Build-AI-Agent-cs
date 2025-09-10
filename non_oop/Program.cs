@@ -7,7 +7,7 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
-
+using DotNetEnv; 
 // ---------------------- Database Service ----------------------
 public class DatabaseService
 {
@@ -151,8 +151,9 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        string dbPath = "shop.db"; // database bạn đã tạo
-        string geminiApiKey = "AIzaSyCmAkO5Z2B7lC1hpeKlAbTZme6p6sLBW5A"; // 🔑 Thay bằng key thật
+        Env.Load();
+        string dbPath = "shop.db"; 
+        string geminiApiKey = Environment.GetEnvironmentVariable("geminiApiKey");
 
         var dbService = new DatabaseService(dbPath);
         var geminiService = new GeminiService(geminiApiKey);

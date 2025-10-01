@@ -1,0 +1,100 @@
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP, phụ trách báo giá sản phẩm."},
+  {"role": "user", "content": "Báo giá cho khách hàng mua 5 máy in HP, đơn giá 3,200,000 VNĐ, VAT 10%."},
+  {"role": "assistant", "content": "Tổng giá trước thuế: 16,000,000 VNĐ\nVAT (10%): 1,600,000 VNĐ\nTổng cộng sau thuế: 17,600,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP, phụ trách kế toán."},
+  {"role": "user", "content": "Ghi nhận bút toán khi công ty thanh toán tiền thuê văn phòng 25,000,000 VNĐ bằng chuyển khoản."},
+  {"role": "assistant", "content": "Nợ TK 642: 25,000,000 VNĐ (Chi phí quản lý)\nCó TK 112: 25,000,000 VNĐ (Tiền gửi ngân hàng)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP, chuyên hỗ trợ báo giá."},
+  {"role": "user", "content": "Khách hàng đặt 100 thùng nước suối, đơn giá 85,000 VNĐ/thùng, VAT 8%."},
+  {"role": "assistant", "content": "Giá trước thuế: 8,500,000 VNĐ\nVAT (8%): 680,000 VNĐ\nTổng cộng: 9,180,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP, hỗ trợ kế toán."},
+  {"role": "user", "content": "Ghi nhận bút toán khi công ty mua nguyên liệu trị giá 50,000,000 VNĐ, chưa thanh toán."},
+  {"role": "assistant", "content": "Nợ TK 152: 50,000,000 VNĐ (Nguyên liệu)\nCó TK 331: 50,000,000 VNĐ (Phải trả người bán)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP về báo giá."},
+  {"role": "user", "content": "Báo giá cho khách hàng mua 2 laptop Dell XPS 13, đơn giá 32,000,000 VNĐ, VAT 10%."},
+  {"role": "assistant", "content": "Giá trước thuế: 64,000,000 VNĐ\nVAT (10%): 6,400,000 VNĐ\nTổng cộng: 70,400,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP, phụ trách kế toán."},
+  {"role": "user", "content": "Ghi nhận bút toán khi khách hàng thanh toán 100,000,000 VNĐ tiền hàng bằng tiền mặt."},
+  {"role": "assistant", "content": "Nợ TK 111: 100,000,000 VNĐ (Tiền mặt)\nCó TK 131: 100,000,000 VNĐ (Phải thu khách hàng)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá sản phẩm."},
+  {"role": "user", "content": "Khách hàng muốn báo giá 50 ghế văn phòng, đơn giá 1,200,000 VNĐ, VAT 8%."},
+  {"role": "assistant", "content": "Giá trước thuế: 60,000,000 VNĐ\nVAT (8%): 4,800,000 VNĐ\nTổng cộng: 64,800,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Công ty chi tiền điện tháng 5 là 12,000,000 VNĐ bằng tiền gửi ngân hàng."},
+  {"role": "assistant", "content": "Nợ TK 642: 12,000,000 VNĐ (Chi phí quản lý)\nCó TK 112: 12,000,000 VNĐ (Tiền gửi ngân hàng)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Báo giá 20 màn hình LG, đơn giá 4,500,000 VNĐ, VAT 10%."},
+  {"role": "assistant", "content": "Tổng trước thuế: 90,000,000 VNĐ\nVAT (10%): 9,000,000 VNĐ\nTổng cộng: 99,000,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Khách hàng trả trước 30,000,000 VNĐ cho đơn hàng chưa giao."},
+  {"role": "assistant", "content": "Nợ TK 111: 30,000,000 VNĐ (Tiền mặt)\nCó TK 3387: 30,000,000 VNĐ (Doanh thu chưa thực hiện)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Khách muốn mua 3 máy chiếu Epson, giá 18,000,000 VNĐ/chiếc, VAT 8%."},
+  {"role": "assistant", "content": "Giá trước thuế: 54,000,000 VNĐ\nVAT (8%): 4,320,000 VNĐ\nTổng cộng: 58,320,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Ghi nhận khấu hao tài sản cố định tháng này 5,000,000 VNĐ."},
+  {"role": "assistant", "content": "Nợ TK 642: 5,000,000 VNĐ (Chi phí quản lý)\nCó TK 214: 5,000,000 VNĐ (Hao mòn TSCĐ)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Báo giá 15 camera an ninh, đơn giá 2,800,000 VNĐ, VAT 10%."},
+  {"role": "assistant", "content": "Tổng trước thuế: 42,000,000 VNĐ\nVAT (10%): 4,200,000 VNĐ\nTổng cộng: 46,200,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Nhận tiền vay ngân hàng 500,000,000 VNĐ chuyển khoản."},
+  {"role": "assistant", "content": "Nợ TK 112: 500,000,000 VNĐ (Tiền gửi ngân hàng)\nCó TK 341: 500,000,000 VNĐ (Vay dài hạn)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Khách mua 12 máy lạnh Daikin, giá 15,000,000 VNĐ/chiếc, VAT 10%."},
+  {"role": "assistant", "content": "Giá trước thuế: 180,000,000 VNĐ\nVAT (10%): 18,000,000 VNĐ\nTổng cộng: 198,000,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Chi tiền lương nhân viên tháng này: 200,000,000 VNĐ."},
+  {"role": "assistant", "content": "Nợ TK 642: 200,000,000 VNĐ (Chi phí quản lý)\nCó TK 111: 200,000,000 VNĐ (Tiền mặt)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Khách cần 25 bộ bàn học, đơn giá 2,200,000 VNĐ, VAT 8%."},
+  {"role": "assistant", "content": "Tổng trước thuế: 55,000,000 VNĐ\nVAT (8%): 4,400,000 VNĐ\nTổng cộng: 59,400,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Khách hàng nợ 70,000,000 VNĐ đã trả bằng tiền mặt."},
+  {"role": "assistant", "content": "Nợ TK 111: 70,000,000 VNĐ (Tiền mặt)\nCó TK 131: 70,000,000 VNĐ (Phải thu khách hàng)"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP báo giá."},
+  {"role": "user", "content": "Báo giá cho 40 ổ cứng SSD, đơn giá 1,800,000 VNĐ, VAT 10%."},
+  {"role": "assistant", "content": "Tổng trước thuế: 72,000,000 VNĐ\nVAT (10%): 7,200,000 VNĐ\nTổng cộng: 79,200,000 VNĐ"}
+]}
+{"messages": [
+  {"role": "system", "content": "Bạn là trợ lý ERP kế toán."},
+  {"role": "user", "content": "Ghi nhận bút toán khi công ty trả nợ vay ngân hàng 100,000,000 VNĐ bằng tiền gửi ngân hàng."},
+  {"role": "assistant", "content": "Nợ TK 341: 100,000,000 VNĐ (Vay dài hạn)\nCó TK 112: 100,000,000 VNĐ (Tiền gửi ngân hàng)"}
+]}
